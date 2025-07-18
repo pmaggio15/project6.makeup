@@ -15,7 +15,6 @@ NAV
 */
 
 
-
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -37,13 +36,43 @@ NAV
     font-size: 20px;
 }
 
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center on page */
-    margin-top: 50px;
-    padding: 10px 15px;
+.header__title {
     font-size: 12px;
-    border: 2px solid #ccc;
-    border-radius: 10px 0 0 10px; /* Rounded on left */  
+    display: flex;
+    justify-content: center;
+    color: #885a3aa1;
+}
+
+.search__box {
+  display: flex;  
+  justify-content: center;      
+  align-items: center;          
+  margin-top: 12px;
+}
+
+.search__input {
+    background: #ded6cc;
+    color: #885a3aa1;
+    border: 2px solid #885a3aa1;
+    border-radius: 10px;
+    padding: 12px 24px;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: white;
+}
+input:focus {
+  outline: none;
+}
+/* .search__btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+} */
+
+.fa-magnifying-glass {
+    color:#885a3aa1;
+    margin-left: 12px;
+    cursor: pointer;
 }
