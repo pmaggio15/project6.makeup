@@ -33,16 +33,20 @@ NAV
     align-items: center;
 }
 
+
 .nav__links {
     display: flex;
     list-style-type: none;
+    position: relative;
 }
+
 .nav__link {
     text-decoration: none;
     padding-left: 24px;
     padding-right: 12px;
     color: white;
     font-size: 20px;
+   
 }
 
 .nav__link:hover {
@@ -64,6 +68,7 @@ NAV
   align-items: center;          
   margin-top: 12px;
 }
+
 
 .search__input {
     background: #ded6cc;
@@ -139,4 +144,7 @@ MAKEUP
    border-radius: 12px;
    padding: 12px 12px;
    cursor: pointer;
+}
+.makeup__ratings {
+    
 }
